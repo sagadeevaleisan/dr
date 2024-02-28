@@ -121,7 +121,7 @@ function App() {
 
         <Routes>
           {<Route
-            path="/plants/"
+            path="/dr/"
             element={
               <Home
                 items={items}
@@ -140,7 +140,7 @@ function App() {
 
         <Routes>
           {<Route
-            path="/plants/favorites"
+            path="/dr/favorites"
             element={
               <Favorites />
             }
@@ -150,7 +150,7 @@ function App() {
 
         <Routes>
           {<Route
-            path="/plants/orders"
+            path="/dr/orders"
             element={
               <Orders />
             }
